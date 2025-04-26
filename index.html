@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>venky's portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fef99b3935.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web-Developer</p>
+                <h1>Hi, I'm <span> Venkat </span><br>Makkalwar </h1>
+            </div>
+        </div>
+    </div>
+<!---------------about------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>Hi, I'm Makkalwar Venkat Sailu, but you guys can call me Venky.
+                        I'm a dedicated and ambitious B.Tech CSE (AI & DS) student at St. Mary's Integrated Campus, Hyderabad, with a strong passion for technology, innovation, and creating digital solutions that make an impact.</p>
+
+                        <div class="tab-tittles">
+                            <p class="tab-links active-link"  onclick="opentab('skills')" >Skills</p>
+                            <p class="tab-links"   onclick="opentab('experience')" >Experience</p>
+                            <p class="tab-links"    onclick="opentab('education')" >Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills" >
+                            <ul>
+                                <li><span>Student</span><br>Computer Science</li>
+
+                                <li><span>Web Developement</span><br>web-Designer</li>
+
+                                <li><span>Programming</span><br>C, pythone, Java </li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Web-develepment project</span><br>SMIC prtal</li>
+                                <li><span>developed</span><br>Portfolio Web-sites</li>
+
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>SSC - 2021 </span><br>
+                                    ZPHS Madnoor
+                                </li>
+
+                                <li><span>Inter - 2023</span><br>TSMS & jr. College Menoor</li>
+                                
+                                <li><span>B.Tech</span><br>Saint Mary's Integrated Campus Hyderabad  </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------Services ---------------->
+
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-tittle">My services</h1>
+            <div class="services-list">
+               
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Developement</h2>
+                    <p>Hello this venkat makkalwar if you want any help related in web development then please contact us Thankyou.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-web-awesome"></i>
+                    <h2>Web Design</h2>
+                    <p>Hello there if you want any help related in web Design then please contact us Thankyou.</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX</h2> 
+                    <p>Hello this if you want any help related in web UI/UX then please contact us Thankyou.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------Portfolio--------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My Upcoming works </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/img2.jpg" alt="">
+                    <div class="layer">
+                        <h3>Social Media Web</h3>
+                        <p>A platform for users to connect, share content, and engage in discussions through real-time messaging, notifications, and personalized feeds. It focuses on building interactive communities with strong privacy and security features.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work.jpg" alt="">
+                    <div class="layer">
+                        <h3>My Dream project <br>Ideovest</h3>
+                        <p>A platform connecting investors and ideologists, allowing aspiring entrepreneurs to showcase ideas and secure funding, while investors discover and support innovative projects.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Oline web - site <br>Business</h3>
+                        <p>A digital platform offering products or services through a website, allowing businesses to reach a global audience, manage transactions, and provide customer support efficiently, all while operating 24/7.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!---------------Contact------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>vsmakkalvar@gmail.com</p>
+                    <p><i class="fa-brands fa-whatsapp"></i>6300003773</p>
+                    
+
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100094862996593" target="_blank" ><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/venky_makkalwar/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/VMakkalwar40985"><i class="fa-brands fa-x-twitter" target="_blank"></i></a>
+                        <a href="https://www.linkedin.com/in/venkat-makkalwar-14b628286/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/VenkyCodeX" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    </div>
+
+                     <a href="pdf/Venkat-Makkalwar-FlowCV-Resume-20250426 (2).pdf" download class="btn btn2" >Download CV</a>
+
+                </div>
+                <div class="contact-right"></div>
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="your name" required>
+                    <input type="text" name="Email" placeholder="your email" required>
+
+                    <textarea name="Message" rows="6" placeholder="Any Message for me...? "></textarea>
+
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg" ></span>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>developed by <i class="fa-solid fa-heart"></i> || Venky ||. All rights reserved</p>
+        </div>
+
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+       
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+    </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx3R_k6PjfwO-AbsyPIF2ltvcLxKvYkoDvKzEJfM3d-7ogAQY9g69ZTRCVKFBVJNkhRiQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Message sent successfully..."
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
